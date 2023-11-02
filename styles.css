@@ -1,0 +1,249 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  background-color: black;
+  color: #40514e;
+}
+
+h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  color: #de8cc3;
+  margin: 50px auto 0 auto;
+  line-height: 2;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #ffffff;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #7b33b1;
+}
+
+p {
+  color: whitesmoke;
+}
+
+.top_container {
+  /* background-color: #4a077e; */
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(116, 23, 171, 1) 17%,
+    rgba(83, 69, 154, 1) 55%,
+    rgba(44, 124, 134, 1) 100%,
+    rgba(63, 168, 181, 1) 100%
+  );
+  position: relative;
+  padding-top: 100px;
+  display: block;
+}
+
+.spane {
+  text-decoration: underline;
+}
+
+.skill-row {
+  width: 80%;
+  line-height: 2;
+  margin: 100px auto 175px auto;
+  text-align: left;
+}
+
+.codeImg {
+  width: 35%;
+  float: left;
+  margin-right: 45px;
+}
+
+.workingI {
+  width: 35%;
+  float: right;
+  margin-left: 25px;
+  height: 15%;
+}
+
+/* .aymanP {
+  display: block;
+  margin-left: 515px;
+  margin-right: 0px;
+  width: 40%;
+} */
+/*
+!Display property has 4 diff values
+
+block - those that take up the whole widith of the screen in css
+        , use a span tag to acheive and one part of the text format it diff
+inline - only takes as much as they need
+inline block 
+none - removes the element from the website as if it never exired,  or use visbiality hidden
+
+*/
+
+/* !Positioning
+
+Static = defult postion, go to html rules and  without css
+Relative = allows us to postion  relative to if it was static, using html flow, like box model almost.
+            left 30px takes us right 30px because it says give space between its left edge
+            Does not affect any other things on screen
+Absoulte = adding margin to its parents element
+            impacts other elements
+Fixed = stays where it stays, does not move in postion
+
+
+
+!Centering Elements
+using text-align , works using for everything that does not have a width set
+the other way is to do by margin,    maring: 0 auto 0 auto;
+
+!Sizing Elements
+16px = 100% = 1 em
+
+if we want 90 as the font size, 90/16 = 562.5 %
+*/
+
+.topC {
+  position: absolute;
+  right: 400px;
+  top: 50px;
+  height: 35px;
+}
+
+/* .bottomC {
+  position: absolute;
+  width: 5%;
+  margin-b
+} */
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  width: 10%;
+}
+
+.footer-link:hover {
+  color: #11999e;
+}
+
+.aymanP {
+  width: 20%;
+  margin-top: 40px;
+}
+
+.mountain {
+  width: 25%;
+  margin-top: 55px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+hr {
+  border-style: dashed;
+  border-color: #ff12c8;
+  width: 5%;
+  /* border-top-style: none;
+  border-right-style: none;
+  border-left-style: none; */
+  border-width: 1px;
+  margin: 100px auto;
+}
+/* .che {
+  clear: right;
+
+  this is the anti of left or right and does not allow whatever to surround the imagex
+} */
+
+.btn {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(116, 23, 171, 1) 17%,
+    rgba(83, 69, 154, 1) 55%,
+    rgba(44, 124, 134, 1) 100%,
+    rgba(63, 168, 181, 1) 100%
+  );
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #ae39dc, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.bottom-container {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(116, 23, 171, 1) 17%,
+    rgba(83, 69, 154, 1) 55%,
+    rgba(44, 124, 134, 1) 100%,
+    rgba(63, 168, 181, 1) 100%
+  );
+  padding: 30px 0 10px;
+}
+
+.contact-me {
+  margin-bottom: 120px;
+  margin-top: 100px;
+}
+
+.skills {
+  margin-top: 100px;
+}
+
+.pText {
+  /* width: 50%;
+  text-align: center;
+  margin-left: 25%;
+
+  /* margin-top: 50px; */
+  width: 50%;
+  margin: auto;
+  line-height: 2;
+  /* margin-bottom: 100px; */
+}
+
+.contact- {
+  width: 50%;
+  text-align: center;
+  margin-left: 25%;
+  line-height: 2;
+  /* margin-top: 50px;
+  margin-bottom: 60px; */
+  margin: 40px auto 60px;
+}
+
+.copy {
+  font-size: 0.8rem;
+  color: black;
+  padding: 25px 0;
+}
+
+.hh {
+  height: 180px;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
